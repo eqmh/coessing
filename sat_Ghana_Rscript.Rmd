@@ -44,9 +44,9 @@ NoSpaces = function(x){
 ## set site coordinates and time for SST extraction. 
 SSTSiteName = "Ghana Shelf"   ## for the resulting file name
 SSTcoords.lon = -1.2  ## this is decimal longitude
-SSTcoords.lat = 4.5  ## this is decimal latitude
+SSTcoords.lat = 2.0  ## this is decimal latitude
 
-SSTstartDate = "2015-01-01"  ## define start date of your time series 
+SSTstartDate = "2017-01-01"  ## define start date of your time series 
 
 ## set dataset source (monthly SST)
 SSTsource = info("jplMURSST41mday")
@@ -122,7 +122,7 @@ NoSpaces = function(x){
 
 ## set site coordinates and time for CHL extraction
 CHLSiteName = "Gulf of Guinea"   ## for the resulting file name
-CHLcoords.lon = -1.2 ## this is decimal longitude
+CHLcoords.lon = -4.2 ## this is decimal longitude
 CHLcoords.lat = 4.5 ## this is decimal latitude
 
 CHLstartDate = "2015-01-01"
